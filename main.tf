@@ -53,7 +53,7 @@ resource "ibm_function_action" "action" {
     },
     {
         "key":"raw-http",
-        "value":false
+        "value":true
     },
     {
         "key":"final",
